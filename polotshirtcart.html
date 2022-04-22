@@ -1,0 +1,159 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>  All products-INFINITY FITNESS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+ 
+</head>
+    <body>
+       
+        <div class="container">
+         
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">  <img src="logo-100.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html"> home</a></li>
+                    <li><a href="product.html"> products</a></li>
+                    <li><a href=""> about</a></li>
+                    <li><a href=""> contact</a></li>
+                    <li><a href="Account.html"> account</a></li>
+                </ul>
+            </nav>
+            <img src="cart.png" width="30px" height="30px">
+             <img src="/menu.png" class="menu-icon " 
+                 onclick="menutoggle()">
+        </div>
+            
+        </div>
+        <!--------cart item details------->
+        <div class="small-container cart-page">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>subtotal</th>
+                
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="tshirt%20-%20Copy.jpeg">
+                            <div>
+                                <p>black polo t-shirt</p>
+                                <small>Price:₹750.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                                    
+                            
+                            </div>
+                        
+                        
+                    
+                    </td>
+                    <td> <input type="number" value="1"></td>
+                    <td>₹750.00</td>
+                
+                </tr>
+                
+                 
+            </table>
+            <div class="Total-price">
+                
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                         <td>₹750.00</td>
+                    </tr>
+                    <tr>
+                        <td>shipping charges</td>
+                         <td>₹40.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                         <td>₹790.00</td>
+                    </tr>
+                
+                
+                </table>
+                    
+            
+            </div>
+            
+        </div>
+        
+       
+       
+        <!---------footer--------->
+       <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>download our app</h3>
+                        <p>download app for android and ios.</p>
+                        <div class="app-logo">
+                            <img src="/playstore1.png">
+                            <img src="/applelogo.png">
+                        </div>
+                    </div>
+                     <div class="footer-col-2">
+                        <img src="/logo-100.png">
+                        <p>our purpose is to sustainably make the plesure and benifits of sport accessible to the many</p>
+                    </div>
+                     <div class="footer-col-3">
+                        <h3>useful links</h3>
+                         <ul>
+                             <li>coupens</li>
+                             <li>blog post</li>
+                             <li>return policy</li>
+                             <li>join affiliate</li>
+                         
+                         </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>follow us </h3>
+                         <ul>
+                             <li>facebook</li>
+                             <li>twitter</li>
+                             <li>instagram</li>
+                             <li>youtube</li>
+                         
+                         </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="msg">made with love by SSPMCOE</p>
+                
+            </div>
+        </div>
+        <!--------js for toggle menu---------> 
+        <script>
+            var menuitems = document.getElementById("menuitems");
+            
+            menuitems.style.maxHeight = "0px";
+            
+            
+            function menutoggle(){
+                if (menuitems.style.maxHeight == "0px")
+                    {
+                        menuitems.style.maxHeight = "200px";
+           
+                    }
+                else
+                    {
+                        menuitems.style.maxHeight = "0px";
+           
+                    }
+            }
+        </script>
+        
+   </body>
+</html>
